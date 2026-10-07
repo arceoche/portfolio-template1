@@ -1,16 +1,57 @@
-# React + Vite
+# Portfolio Template 01
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern portfolio website template created for people who want a professional-looking online presence without needing extensive web development experience.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** https://arceoche.github.io/portfolio-template1/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+This is **Portfolio Template 01**, one of several portfolio templates I'm working on.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The template is designed with simplicity and ease of use in mind. It provides a straightforward structure for presenting yourself, your work, skills, and other important information in one place.
 
-## Expanding the ESLint configuration
+It's especially recommended for **beginners and non-experienced users** who may not have much experience designing or developing websites but still want a polished portfolio.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Who Is It For?
+
+This template is a good fit for:
+
+- Students building their first portfolio
+- Beginners with little to no work experience
+- Designers and creatives who want a simple online presence
+- Freelancers looking for a portfolio site
+- Anyone who wants a straightforward portfolio without an overly complicated design
+
+## Design Philosophy
+
+The template focuses on keeping things **simple, clean, and easy to understand**.
+
+Rather than trying to overwhelm visitors with complex layouts or excessive features, the design puts the focus on the person and their work.
+
+The goal is to make creating a portfolio feel approachable, especially for someone who may be building a website for the first time.
+
+## Portfolio Template Series
+
+This is the first of several portfolio templates I'm working on.
+
+Each template in the collection explores a different design direction and is intended for different preferences, experience levels, and use cases.
+
+**Portfolio Template 01** focuses on:
+
+- Simplicity
+- Accessibility for beginners
+- Clean presentation
+- Easy-to-understand structure
+- A professional but approachable appearance
+
+More templates will be added to the collection over time.
+
+## 🌐 Live Preview
+
+You can view the website here:
+
+**https://arceoche.github.io/portfolio-template1/**
+
+---
+
+*Part of an ongoing collection of portfolio templates.*
