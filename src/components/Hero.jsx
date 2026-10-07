@@ -35,12 +35,12 @@ function Hero(){
             </h1>
 
             <div className="flex gap-3">
-              <a href="#services" className="mt-8 rounded-lg bg-[#4d0e13] px-6 py-3 font-semibold text-white  hover:bg-[#cba49f] hover:cursor-pointer">
+              <a href="#services" className="text-center mt-8 rounded-lg bg-[#4d0e13] px-6 py-3 font-semibold text-white  hover:bg-[#cba49f] hover:cursor-pointer">
                   View My Services
               </a> 
-              <button className="mt-8 rounded-lg bg-[#4d0e13] px-6 py-3 font-semibold text-white  hover:bg-[#cba49f] hover:cursor-pointer">
+              <a className="text-center mt-8 rounded-lg bg-[#4d0e13] px-6 py-3 font-semibold text-white  hover:bg-[#cba49f] hover:cursor-pointer">
                   View Sample Works
-              </button>
+              </a>
             </div>
 
           </div>
