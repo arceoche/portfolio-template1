@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root{
+  --clr-primary-color: #4d0e13;
+  --clr-secondary-color: #cba49f;
+  --clr-tertiary-color: #d8c4ac;
+  --clr-background-color: #eee4da;
+
+  --font-heading: "Merriweather", serif;
+  --font-body: "Lato", Sans-serif;
+}
+body{
+  background-color: var(--clr-background-color);
+  color: var(--clr-primary-color);
+  font-family: var(--font-body);
+  margin: 0 auto;
+  /* padding: 2rem; */
+}
+
+@theme{
+  --font-heading: "Merriweather", serif;
+
+  --breakpoint-sm: 500px;
+  --breakpoint-md: 950px;
+  --breakpoint-lg: 1000px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1500px;
+
+  --animate-slide: slide 20s linear infinite;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.calendly-badge-widget .calendly-badge-content {
+  padding: 16px 24px !important;
+  font-size: 1rem !important;
+  font-family: var(--font-heading) !important;
+  transition: all 0.3s ease !important;
+}
+
+.calendly-badge-widget .calendly-badge-content:hover {
+  background-color: #cba49f !important;
+  color: #4d0e13 !important;
+  transform: translateY(-2px);
+}
+
+.calendly-badge-widget {
+  bottom: 2rem !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
