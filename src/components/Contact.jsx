@@ -86,7 +86,7 @@ function Contact() {
 
           <div
             className="calendly-inline-widget mt-8 min-w-[320px]"
-            data-url="https://calendly.com/geminic/30min?hide_event_type_details=1&text_color=cba49f&primary_color=4d0e13"
+            data-url="https://calendly.com/geminic/30min?hide_event_type_details=1&&hide_gdpr_banner=1&text_color=cba49f&primary_color=4d0e13"
             style={{ height: '700px' }}
           />
         </div>
